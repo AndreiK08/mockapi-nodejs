@@ -2,8 +2,10 @@
   "name": "mockapi-nodejs",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startdev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,10 @@
   },
   "homepage": "https://github.com/AndreiK08/mockapi-nodejs#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "mongoose": "^6.2.3",
     "nodemon": "^2.0.15"
   }
 }
